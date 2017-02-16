@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="mycss.css" rel="stylesheet">
+        <script src="javaScriptFile.js"></script>
+    </head>
+    <Title>
+        The best website ever Assignment 2
+    </Title>
+    <!-- Start Nav -->
+    <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Fun Page</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start Body -->
+    <body>
+        <div class="mainformdiv">
+            DONT CLICK THIS LINK. DANGER BAD WEBSITE AHEAD: 
+            <a href="#" onclick="alertUser()">here</a><br>
+            But actually click this becasue javascript is cool ^^
+            <br>
+            <br>
+            
+            <form class="mainform" id ="mainform" >
+                First Name:
+                </br>
+                <div class="bigimage"> </div>
+                <input type="text" name="firstname" value="John" id="firstname"><br>
+                Last Name:
+                </br>
+                <input type="text" name="lastname" value="Same" id="lastname"><br>
+                Favorite Video Game:<br>
+                <select name="games" id="game"> 
+                    <option value="overwatch">Overwatch</option>
+                    <option value="leagueoflegends">League Of Legends</option>
+                    <option value="diablo">Diablo</option>
+                    <option value="mario">Mario</option>
+                </select>
+                <br>
+                Reason:
+                <br>
+                <input class="reasonbox" type="text" name="reason" value="It is so much fun" id="reason"><br><br>
+                <input class="submitbutton" type="submit" value="Submit" onclick="return validateForm();"></input>
+            </form> 
+        </div>
+    </body>
+    <!-- End Body -->
+    <!-- Start Footer -->
+    <footer class="footerFinal">
+            <div class="leftfoot">
+                <P>
+                    Thanks for vising my website! 
+                    <br>
+                    Come back soon!
+                </p>
+            </div>
+             <div class= "rightfoot">
+                <p>
+                    Designed by:
+                    <br>
+                    David Anderson Inc.
+                </p>
+            </div>
+             <div class = "centerfoot">
+               <p> 
+                    My Hours:
+               </p>
+               <P>
+                    Monday: 1:00pm - 12:00am.
+               </p>
+            </div>
+        </footer>
+        <!-- End Footer -->
+</html>

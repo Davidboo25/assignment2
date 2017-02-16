@@ -1,0 +1,78 @@
+body
+{
+    background: grey;   
+}
+.nav
+{
+    width: 100%;
+    text-align: center;
+    top:0;
+}
+.nav > ul
+{
+    list-style-type: none;
+    background-color: rgba(102,51,153,0.8);
+}
+.nav > ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+.mainform
+{
+    background:rgba(50,30,71,0.35);
+    padding:10px;
+    height: 300px;
+}
+.mainform input 
+{
+    width: 200px;
+    margin-bottom:10px;
+}
+.mainform select
+{
+    width: 200px;
+}
+.submitbutton
+{
+    background: rgba(102,51,153,0.8);
+    border-style: ridge;
+    border-radius: 5px;
+}
+.bigimage
+{
+    background-image: url('http://orig01.deviantart.net/c953/f/2013/064/9/8/league_of_legends_icon_by_warriotox-d5x27b1.png');
+    width: 256px;
+    height: 256px;
+    float:right;
+}
+.footerFinal
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background:rgba(102,51,153,0.8);
+}
+.leftfoot
+{
+    float: left;
+    text-align: left;
+    width: 33.3%; 
+}
+
+.rightfoot
+{
+    float: right; 
+    text-align: right;
+    width: 33.3%; 
+}
+
+.centerfoot
+{
+
+    float: right;
+    text-align: center;
+    width: 33.3%; 
+}
